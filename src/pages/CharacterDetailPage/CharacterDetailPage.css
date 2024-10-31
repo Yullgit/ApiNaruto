@@ -1,0 +1,26 @@
+.character-detail {
+  text-align: center;
+}
+
+.character-detail img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.character-detail button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.character-detail button:hover {
+  background-color: #16a085;
+}
